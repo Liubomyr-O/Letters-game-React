@@ -16,7 +16,7 @@ export function Counter({ gameOn, time, timeID, mainLetter, timeEnds }) {
     if (gameOn === true) {
       setPlaying(true);
     } else {
-      console.log("Counter not aviable now");
+      document.getElementById("counter").classList.toggle("hidden");
     }
   }, [gameOn]);
 
@@ -34,7 +34,7 @@ export function Counter({ gameOn, time, timeID, mainLetter, timeEnds }) {
   }
 
   return (
-    <div id="counter" className="hidden">
+    <div id="counter">
       {/* <h4>Your game goes on...</h4> */}
       <h3>{count}</h3>
     </div>

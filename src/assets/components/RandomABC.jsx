@@ -1,3 +1,5 @@
+import React from "react";
+
 export function RandomABC(min = 1, max = 3) {
   min = Math.ceil(min);
   max = Math.floor(max);

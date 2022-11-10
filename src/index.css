@@ -50,6 +50,10 @@ h3 {
   margin-bottom: 10px;
 }
 
+.losing-scenario {
+  color: red;
+}
+
 button {
   border-radius: 2px;
   border: 1px solid transparent;
@@ -75,7 +79,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.starGame {
+.gift,
+.starGame,
+.restarGame {
   height: 50px;
   width: 150px;
   font-size: 14pt;
@@ -85,6 +91,38 @@ button:focus-visible {
   margin-top: 30px;
 }
 
+.gift {
+  background-image: linear-gradient #16a085 0%, #f4d03f 51%, #16a085 100%;
+}
+
 .hidden {
   display: none;
+}
+
+.win-green {
+  background-color: rgb(62, 192, 36);
+}
+
+.win-green {
+  background-color: rgb(62, 192, 36);
+}
+
+.win-green:hover {
+  background-color: #3cc637;
+}
+
+.loss-red {
+  background-color: rgb(255, 0, 0);
+}
+
+.loss-red:hover {
+  background-color: rgb(207, 29, 29);
+}
+
+.loss-team {
+  background-color: rgb(208, 75, 75);
+}
+
+.hide-text {
+  font-size: 0pt;
 }
